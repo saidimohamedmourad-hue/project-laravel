@@ -14,5 +14,4 @@ route::get('job',[Jobcontroller::class,'index']);
 route::get('/blog',[PostController::class,'index']);
 
 route::get('/blog/create',[ PostController::class,'create']);
-
 route::get('/blog/{id}',[PostController::class,'show']);
